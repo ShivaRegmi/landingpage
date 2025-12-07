@@ -56,7 +56,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
+      
           <div>
             <h3 className="font-semibold text-[#FFDE63] mb-4">{t("Contact Us", "सम्पर्क गर्नुहोस्")}</h3>
             <ul className="space-y-3">
@@ -75,7 +75,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Social Links */}
+        
           <div>
             <h3 className="font-semibold text-[#FFDE63] mb-4">{t("Follow Us", "हामीलाई फलो गर्नुहोस्")}</h3>
             <div className="flex gap-3">
@@ -104,13 +104,15 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-gray-400 text-sm flex items-center gap-1">
-            {t("Made with", "बनाइएको")} <Heart className="w-4 h-4 text-[#FF6B6B] fill-[#FF6B6B]" />{" "}
-            {t("for Nepal", "नेपालको लागि")}
-          </p>
-          <p className="text-gray-400 text-sm">© 2025 Toleमित्र. {t("All rights reserved.", "सर्वाधिकार सुरक्षित।")}</p>
-        </div>
+<div className="border-t border-gray-700 mt-8 pt-8 flex flex-col items-center gap-2 text-center">
+  <p className="text-gray-400 text-sm">
+    {t("Made by", "बनाइएको")} {t("team Digira", "Digira")}
+  </p>
+  <p className="text-gray-400 text-sm">
+    © 2025 Toleमित्र. {t("All rights reserved.", "सर्वाधिकार सुरक्षित।")}
+  </p>
+</div>
+
       </div>
     </footer>
   )
